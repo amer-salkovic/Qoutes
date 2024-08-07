@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3a3f51;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quotes-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote-list {
+    width: 100%;
+    max-width: 600px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.vote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.vote-button {
+    cursor: pointer;
+    font-size: 24px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.vote-button.active {
+    color: #ff5722;
+}
+
+.percentage {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.percentage .votes {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.percentage.green {
+    color: #4caf50;
+}
+
+.percentage.yellowgreen {
+    color: #cddc39;
+}
+
+.percentage.orange {
+    color: #ff9800;
+}
+
+.percentage.red {
+    color: #f44336;
+}
+
+.quote {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.content-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.content-section .author {
+    font-size: 14px;
+    color: #757575;
+    margin-top: 10px;
+    text-align: right;
+    align-self: flex-end;
+}
